@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'component-without-shadow',
@@ -6,10 +6,6 @@ import { Component, Host, h } from '@stencil/core';
 })
 export class ComponentWithoutShadow {
   render() {
-    return (
-      <Host>
-        <div>I do not use shadow DOM.</div>
-      </Host>
-    );
+    return <div class="not-shadowed">I do not use shadow DOM.</div>;
   }
 }

@@ -2,7 +2,7 @@
   display: block;
 }
 
-div {
+.not-shadowed {
   height: 10rem;
   width: 10rem;
   border: solid;
